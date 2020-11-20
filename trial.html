@@ -11,39 +11,87 @@
 </head>
 
 <body>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg2">Large modal</button>
 
   <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog  modal-dialog-centered bonus-dialog">
+  <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered form-dialog">
       <div class="modal-content">
 
-        <div class="modal-body  bonus-modal">
-          <p class="bonuses-available-red">Bonuses Available</p>
-          <table class="bonus-table">
-            <tr>
-              <td style="text-align:center;font-weight:bold;font-size:25px;">Reasons</td>
-              <td style="text-align:center;font-weight:bold;font-size:25px;">Bonus</td>
-            </tr>
-            <tr>
-              <td class="">On reaching leve of <strong>$1000.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$10.00</td>
-            </tr>
-            <tr>
-              <td class="">On reaching leve of <strong>$5000.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$50.00</td>
-            </tr>
-            <tr>
-              <td class="">On reaching leve of <strong>$100.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$5.00</td>
-            </tr>
-            <tr>
-              <td class="">On Enrollment</td>
-              <td class="bonus-center-table">$5.00</td>
-            </tr>
-          </table>
-        </div>
+        <div class="modal-body  form-modal">
 
+          <form>
+    <div class="form-row form-group">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+    <div class="form-group">
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Mobile Number">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address">
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="DOB">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Anniverary Date">
+    </div>
+  </div>
+  <p class="additional-information">Additional Information :</p>
+  <div class="form-group">
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Address Line 1">
+</div>
+<div class="form-group">
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address Line 1">
+</div>
+<div class="form-row form-group">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="City">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="State">
+  </div>
+</div>
+<div class="form-row form-group">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Country">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Postal Code/ZIP">
+  </div>
+</div>
+<p class="additional-information">More Information :</p>
+<div class="form-row form-group">
+<div class="col">
+  <input type="text" class="form-control" placeholder="First Child's Name">
+</div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="First Child's Birthday">
+</div>
+</div>
+<div class="form-row form-group">
+<div class="col">
+  <input type="text" class="form-control" placeholder="Second Child's Name">
+</div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="Any UDF Name">
+</div>
+</div>
+<p class="modal-form-bottom-p">Member Since :Jule 12,2017</p>
+<div class="modal-form-button">
+  <button type="button" class="btn btn-outline-primary">Cancel</button>
+  <button type="button" class="btn btn-danger">Save</button>
+
+</div>
+  </form>
+
+        </div>
       </div>
     </div>
   </div>

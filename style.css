@@ -225,6 +225,7 @@ body{
   position:relative;
   top:-50px;
   float: right;
+  cursor: pointer;
 }
 .under-level{
   margin: 25px 0px 5px 0px;
@@ -354,6 +355,141 @@ font-size: 25px;
 .bonus-dialog{
   max-width: 1250px;
 }
+
+
+.transaction-dialog{
+  max-width: 1200px;
+}
+.transaction-table{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.transaction-body td{
+  border: 3px dashed lightgrey;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.transaction-history-red{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  margin: 10px auto 30px auto;
+}
+.transaction-table-black-background{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.transaction-point{
+  color:#16c93d;
+  font-weight: 500;
+}
+.transaction-receipt{
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.transaction-date{
+  font-weight: normal;
+}
+.transaction-amount{
+  font-weight: 500;
+}
+.transaction-button-modal button{
+  border-radius: 20px;
+  margin: 20px 5px 20px 5px;
+  width: 150px;
+  float: right;
+}
+.transaction-no{
+  font-weight: 500;
+}
+
+
+
+.teir-dialog{
+  max-width: 1000px;
+}
+.teir-table{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.teir-body td{
+  border: 3px dashed lightgrey;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+.teir-table-black-background{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.teir-table-black-background td{
+padding: 10px 0px 10px 0px;
+
+}
+.teir-point{
+  font-weight: 500;
+}
+.teir-receipt{
+  font-weight: 500;
+}
+.teir-date{
+  font-weight: 500;
+}
+.teir-amount{
+  font-weight: 500;
+}
+.teir-no{
+  font-weight: 500;
+}
+.teir-modal{
+  padding: 40px;
+}
+
+
+
+.form-modal input{
+  height: 50px;
+  width: 100%;
+  background-color:#e9e6ed;
+}
+.form-dialog{
+  max-width: 800px;
+}
+.form-modal-total-div{
+  margin-top: 30px;
+}
+.form-modal{
+  padding: 20px 60px 30px 60px;;
+}
+.additional-information{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.modal-form-bottom-p{
+  text-align: center;
+  color: grey;
+}
+.modal-form-button button{
+  width: 110px;
+  border-radius: 30px;
+  margin: 0px 5px 0px 5px;
+}
+.modal-form-button{
+  text-align: center;
+  margin-top: 30px;
+}
+
 
 @media screen and (max-width:1516px) {
 .top-black{

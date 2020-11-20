@@ -1,25 +1,28 @@
-.bonuses-available-red{
-  color: red;
-  font-size: 35px;
-  font-weight: bold;
-  text-align: center;
-}
-.bonus-table{
+.form-modal input{
+  height: 50px;
   width: 100%;
+  background-color:#e9e6ed;
 }
-.bonus-table td{
-  border: 3px dashed lightgrey;
+.form-dialog{
+  max-width: 900px;
+}
+.form-modal{
+  padding: 60px;
+}
+.additional-information{
   font-size: 25px;
-  padding: 20px 20px 20px 20px;
-  font-weight: 500;
+  font-weight: bold;
+  margin-top: 30px;
 }
-.bonus-center-table{
+.modal-form-bottom-p{
   text-align: center;
-  width: 300px;
+  color: grey;
 }
-.bonus-modal{
-  padding: 100px;
+.modal-form-button button{
+  width: 110px;
+  border-radius: 30px;
+  margin: 0px 5px 0px 5px;
 }
-.bonus-dialog{
-  max-width: 1250px;
+.modal-form-button{
+  text-align: center;
 }
