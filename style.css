@@ -1,6 +1,6 @@
+@media (min-width:1025px) {
 body{
   background-color: #F3F3FB;
-  overflow-x: hidden;
 }
 .top-black-bar{
   width: 95%;
@@ -11,7 +11,19 @@ body{
   color:#FFFFFF;
   padding: 10px 0px 1px 0px;
   font-size: 20px;
-  width: 100vw;
+  width: 100%;
+}
+.qq{
+  display: flex;
+}
+.rr{
+  display: flex;
+}
+.tt{
+  display: flex;
+}
+.yy{
+  display: flex;
 }
 .fa-close{
   float: left;
@@ -163,6 +175,8 @@ body{
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
+  width: 350px;
+  margin-left: -15px;
 }
 .money-red{
   color:#FF0513;
@@ -175,6 +189,7 @@ body{
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
+  width: 350px;
 }
 .redeemable{
   font-size: 25px;
@@ -273,9 +288,9 @@ body{
   background-color: white;
   margin-top: 20px;
   float: right;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 90px 0px 90px;
   float:right;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .discounts{
   text-align: center;
@@ -455,12 +470,14 @@ padding: 10px 0px 10px 0px;
   padding: 40px;
 }
 .profile-update-button{
-  width: 200px;
-  height: 50px;
-  margin-bottom: 15px;
-  font-size: 20px;
-  border-radius: 30px;
-  margin: 0px 50px 15px 50px;
+  width: 230px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 40px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .form-modal input{
@@ -495,10 +512,512 @@ padding: 10px 0px 10px 0px;
   text-align: center;
   margin-top: 30px;
 }
-
-
-@media screen and (max-width:1516px) {
-.top-black{
-  width: 100%;
 }
+
+
+
+@media (max-width:1024px) and (min-width:321px){
+  .top-black-bar{
+    width: 95%;
+    margin: auto;
+  }
+  .top-black{
+    background-color:black;
+    color:#FFFFFF;
+    padding: 10px 0px 1px 0px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .fa-close{
+    float: left;
+  }
+  .top-black p{
+    text-align: center;
+  }
+  .second-row{
+    width: 95%;
+    margin: auto;
+  }
+  .qq{
+    display: block;
+  }
+  .AJ-profile{
+    background-color: #E9F1FA;
+    width: 150px;
+    height: 150px;
+    padding-top:35px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: red;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .profile-name{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .profile-no{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+  }
+  .powered{
+    margin: auto;
+    width: 200px;
+    align-items: center;
+    display:block;
+    padding-bottom: 30px;
+  }
+  .profile-update{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .profile-column{
+    background-color:#FFFFFF;
+    box-shadow: 0px 10px 20px #0000000F;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0px 40px 0px 40px;
+  }
+  .profile-update-button{
+    width: 230px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .rr{
+    display:block;
+  }
+  .contact-column{
+    background-color:#FFFFFF;
+    box-shadow: 0px 10px 20px #0000000F;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .contact-heading{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .contact-phn{
+    font-size: 20px;
+  }
+  .contact-phn img{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .contact-mail{
+    font-size: 20px;
+  }
+  .contact-mail img{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .contact-aniversary{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+  .contact-date{
+    font-size: 20px;
+  }
+  .contact-date img{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .contact-anniversary-date{
+    font-size: 20px;
+  }
+  .contact-anniversary-date img{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .contact-details{
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+  .contact-more{
+    color: blue;
+    margin-top: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .contact-more img{
+    width: 25px;
+  }
+  .contact-tier{
+    width: 100%;
+    margin-top: 30px;
+    margin:-5px;
+  }
+  .contact-teir-div{
+    margin: 0;
+  }
+  .third-row{
+    width: 95%;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .third-row .row{
+  }
+
+  .tt{
+    display: block;
+  }
+  .yy{
+    display: block;
+  }
+  .money-green{
+    color: #2ACB1F;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .money-point{
+    text-align: center;
+  }
+  .money-current{
+    font-size: 20px;
+    text-align: center;
+    background-color: #ABBAD321;
+    padding: 10px 0px 5px 0px;
+    width: 100%;
+    font-weight: 500;
+  }
+  .green-border{
+    border-left:15px solid #65DD5D;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .money-red{
+    color:#FF0513;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .red-border{
+    border-left:15px solid #FF0513;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .redeemable{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .gradient{
+     background-image: linear-gradient(to right, #BAC7D6,#E9F1FA,#F6B58D);
+    height: 170px;
+    padding: 20px 5px 10px 5px;
+    border-radius: 5px;
+  }
+  .gradient p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .level-outer{
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .level-inner{
+    width: 200px;
+    height: 25px;
+    background-color: #CD202A;
+    border-radius: 20px;
+  }
+  .silver-name{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+  }
+  .level-total{
+    margin: auto;
+    width: 90%;
+  }
+  .gold-name{
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .Loyalty{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .see-teir{
+    color: #1D77FF;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .under-level{
+    margin: 25px 0px 5px 0px;
+  }
+  .earn{
+    margin-top: 40px;
+    color: #131010CC;
+    font-size: 22px;
+  }
+  .under-earn{
+    color: #131010;
+    font-size: 22px;
+  }
+  .bonuses-available{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #1D77FF;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .down-first{
+    box-shadow: 0px 10px 20px #0000000F;
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom:40px;
+  }
+  .transaction-button button{
+    width: 308px;
+    height: 63px;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto 5px auto;
+  }
+  .transaction-button{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .vouchers{
+    box-shadow: 0px 10px 20px #0000000F;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .discounts{
+    text-align: center;
+    font-weight:bold;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .vouchers-img{
+    background-image: url('img/Group 8.svg');
+    width:100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size:contain;
+      margin: auto;
+  }
+  .voucher-img-margin{
+    margin-top: 60px;
+  }
+  .vouchers-img{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2px;
+  }
+  .vouchers-img-heading{
+  font-weight: bold;
+  font-size: 15px;
+  }
+  .vouchers-img-content{
+    width: 80%;
+    margin: -17px auto 0px auto;
+    font-size: 15px;
+  }
+
+
+  .more-information{
+    text-align: center;
+    font-weight: bold;
+  }
+  .modal-body-bold{
+    font-weight: 500;
+    font-style: 50px;
+    width: 250px;
+  }
+  .modal-table td{
+    padding: 10px 0px 5px 10px;
+  }
+  .modal-lg{
+    max-width: 650px;
+  }
+  .modal-content{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+  .bonuses-available-red{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .bonus-table{
+    width: 100%;
+  }
+  .bonus-table td{
+    border: 3px dashed lightgrey;
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+    font-weight: 500;
+  }
+  .bonus-center-table{
+    text-align: center;
+    width: 300px;
+  }
+  .bonus-modal{
+    padding: 100px;
+  }
+  .bonus-dialog{
+    max-width: 1250px;
+  }
+
+
+  .transaction-dialog{
+    max-width: 1200px;
+  }
+  .transaction-table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .transaction-body td{
+    border: 3px dashed lightgrey;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+  }
+  .transaction-history-red{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    margin: 10px auto 30px auto;
+  }
+  .transaction-table-black-background{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .transaction-point{
+    color:#16c93d;
+    font-weight: 500;
+  }
+  .transaction-receipt{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .transaction-date{
+    font-weight: normal;
+  }
+  .transaction-amount{
+    font-weight: 500;
+  }
+  .transaction-button-modal button{
+    border-radius: 20px;
+    margin: 20px 5px 20px 5px;
+    width: 150px;
+    float: right;
+  }
+  .transaction-no{
+    font-weight: 500;
+  }
+
+
+
+  .teir-dialog{
+    max-width: 1000px;
+  }
+  .teir-table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .teir-body td{
+    border: 3px dashed lightgrey;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+  .teir-table-black-background{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .teir-table-black-background td{
+  padding: 10px 0px 10px 0px;
+
+  }
+  .teir-point{
+    font-weight: 500;
+  }
+  .teir-receipt{
+    font-weight: 500;
+  }
+  .teir-date{
+    font-weight: 500;
+  }
+  .teir-amount{
+    font-weight: 500;
+  }
+  .teir-no{
+    font-weight: 500;
+  }
+  .teir-modal{
+    padding: 40px;
+  }
+
+  .form-modal input{
+    height: 50px;
+    width: 100%;
+    background-color:#e9e6ed;
+  }
+  .form-dialog{
+    max-width: 800px;
+  }
+  .form-modal-total-div{
+    margin-top: 30px;
+  }
+  .form-modal{
+    padding: 20px 60px 30px 60px;;
+  }
+  .additional-information{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .modal-form-bottom-p{
+    text-align: center;
+    color: grey;
+  }
+  .modal-form-button button{
+    width: 110px;
+    border-radius: 30px;
+    margin: 0px 5px 0px 5px;
+  }
+  .modal-form-button{
+    text-align: center;
+    margin-top: 30px;
+  }
 }
