@@ -1,0 +1,362 @@
+body{
+  background-color: #F3F3FB;
+  overflow-x: hidden;
+}
+.top-black-bar{
+  width: 95%;
+  margin: auto;
+}
+.top-black{
+  background-color:black;
+  color:#FFFFFF;
+  padding: 10px 0px 1px 0px;
+  font-size: 20px;
+  width: 100vw;
+}
+.fa-close{
+  float: left;
+}
+.top-black p{
+  text-align: center;
+}
+.second-row{
+  width: 95%;
+  margin: auto;
+}
+.AJ-profile{
+  background-color: #E9F1FA;
+  width: 100px;
+  height: 100px;
+  padding-top:20px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.profile-name{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+.profile-no{
+  color: blue;
+  text-align: center;
+}
+.powered{
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display:block;
+}
+.profile-update{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+.profile-column{
+  background-color:#FFFFFF;
+  box-shadow: 0px 10px 20px #0000000F;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px 40px 0px 40px;
+}
+.contact-column{
+  background-color:#FFFFFF;
+  box-shadow: 0px 10px 20px #0000000F;
+  border-radius: 5px 0px 0px 5px;
+}
+.contact-heading{
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-bottom: 30px;
+}
+.contact-phn{
+  font-size: 15px;
+}
+.contact-phn img{
+  width: 20px;
+  margin-right: 10px;
+}
+.contact-mail{
+  font-size: 15px;
+}
+.contact-mail img{
+  width: 20px;
+  margin-right: 10px;
+}
+.contact-aniversary{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+.contact-date{
+  font-size: 15px;
+}
+.contact-date img{
+  width: 20px;
+  margin-right: 10px;
+}
+.contact-anniversary-date{
+  font-size: 15px;
+}
+.contact-anniversary-date img{
+  width: 20px;
+  margin-right: 10px;
+}
+.contact-details{
+  margin-left: 30px;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+.contact-more{
+  color: blue;
+  margin-top: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.contact-more img{
+  width: 15px;
+}
+.contact-tier{
+  width: 610px;
+  margin: auto;
+  margin-top: 30px
+}
+.contact-teir-div{
+  margin: 0px 120px 0px 80px;
+}
+.third-row{
+  width: 95%;
+  margin: auto;
+  border-radius: 5px 5px 0px 0px;
+}
+.third-row .row{
+}
+.money-green{
+  color: #2ACB1F;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+.money-point{
+  text-align: center;
+}
+.money-current{
+  font-size: 20px;
+  text-align: center;
+  background-color: #ABBAD321;
+  padding: 10px 0px 5px 0px;
+  width: 100%;
+  font-weight: 500;
+}
+.green-border{
+  border-left:15px solid #65DD5D;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.money-red{
+  color:#FF0513;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+.red-border{
+  border-left:15px solid #FF0513;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.redeemable{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.gradient{
+   background-image: linear-gradient(to right, #BAC7D6,#E9F1FA,#F6B58D);
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  height: 150px;
+  padding: 15px 0px 10px 0px;
+  border-radius: 5px;
+}
+.level-outer{
+  height: 25px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin: auto;
+}
+.level-inner{
+  width: 200px;
+  height: 25px;
+  background-color: #CD202A;
+  border-radius: 20px;
+}
+.silver-name{
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
+.level-total{
+  margin: auto;
+  width: 90%;
+}
+.gold-name{
+  float: right;
+}
+.Loyalty{
+  font-size: 22px;
+  font-weight: bold;
+}
+.see-teir{
+  color: #1D77FF;
+  text-decoration: underline;
+  font-size: 20px;
+  position:relative;
+  top:-50px;
+  float: right;
+}
+.under-level{
+  margin: 25px 0px 5px 0px;
+}
+.earn{
+  margin-top: 40px;
+  color: #131010CC;
+  font-size: 22px;
+}
+.under-earn{
+  color: #131010;
+  font-size: 22px;
+}
+.bonuses-available{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #1D77FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.down-first{
+  box-shadow: 0px 10px 20px #0000000F;
+  margin-top: 20px;
+  background-color: white;
+  float: right;
+  padding: 0px 25px 0px 15px;
+}
+.transaction-button button{
+  margin:40px 20px 10px 20px;
+  width: 308px;
+  height: 63px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.transaction-button{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+.vouchers{
+  box-shadow: 0px 10px 20px #0000000F;
+  background-color: white;
+  margin-top: 20px;
+  float: right;
+  padding: 0px 100px 0px 100px;
+  float:right;
+  margin-left: 20px;
+}
+.discounts{
+  text-align: center;
+  font-weight:bold;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.vouchers-img{
+  background-image: url('img/Group 8.svg');
+  width:515px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    margin: auto;
+}
+.voucher-img-margin{
+  margin-top: 110px;
+}
+.vouchers-img{
+  margin-top: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.vouchers-img-heading{
+font-weight: bold;
+font-size: 25px;
+}
+.vouchers-img-content{
+  width: 65%;
+  margin: auto;
+}
+.more-information{
+  text-align: center;
+  font-weight: bold;
+}
+.modal-body-bold{
+  font-weight: 500;
+  font-style: 50px;
+  width: 250px;
+}
+.modal-table td{
+  padding: 10px 0px 5px 10px;
+}
+.modal-lg{
+  max-width: 650px;
+}
+.modal-content{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.bonuses-available-red{
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.bonus-table{
+  width: 100%;
+}
+.bonus-table td{
+  border: 3px dashed lightgrey;
+  font-size: 25px;
+  padding: 20px 20px 20px 20px;
+  font-weight: 500;
+}
+.bonus-center-table{
+  text-align: center;
+  width: 300px;
+}
+.bonus-modal{
+  padding: 100px;
+}
+.bonus-dialog{
+  max-width: 1250px;
+}
+
+@media screen and (max-width:1516px) {
+.top-black{
+  width: 100%;
+}
+}

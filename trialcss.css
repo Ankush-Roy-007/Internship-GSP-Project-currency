@@ -1,0 +1,25 @@
+.bonuses-available-red{
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.bonus-table{
+  width: 100%;
+}
+.bonus-table td{
+  border: 3px dashed lightgrey;
+  font-size: 25px;
+  padding: 20px 20px 20px 20px;
+  font-weight: 500;
+}
+.bonus-center-table{
+  text-align: center;
+  width: 300px;
+}
+.bonus-modal{
+  padding: 100px;
+}
+.bonus-dialog{
+  max-width: 1250px;
+}
