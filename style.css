@@ -53,19 +53,19 @@ body{
   color:#FFFFFF;
   padding: 10px 0px 1px 0px;
   font-size: 20px;
-  width: 100%;
+  width: 1540px;
 }
 .qq{
-  display: flex;
+  display:flex;
 }
 .rr{
-  display: flex;
+  display:flex;
 }
 .tt{
-  display: flex;
+  display:flex;
 }
 .yy{
-  display: flex;
+  display:flex;
 }
 .fa-close{
   float: left;
@@ -167,9 +167,10 @@ body{
   margin-right: 10px;
 }
 .contact-details{
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 50px;
-  padding-left: 20px;
+  padding:0px 10px 0px 10px;
+  width: 300px;
 }
 .contact-more{
   color: blue;
@@ -182,11 +183,12 @@ body{
 }
 .contact-tier{
   width: 610px;
-  margin: auto;
   margin-top: 30px
+
 }
 .contact-teir-div{
-  margin: 0px 120px 0px 80px;
+  margin: 0px 105px 0px 80px;
+  float:right;
 }
 .third-row{
   width: 95%;
@@ -559,6 +561,10 @@ padding: 10px 0px 10px 0px;
 
 
 @media (max-width:1024px) and (min-width:321px){
+  html{
+    overflow-x:hidden;
+
+  }
   .top-black-bar{
     width: 95%;
     margin: auto;
