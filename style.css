@@ -1,3 +1,9 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
 @media (width:414px) {
   .vouchers{
     box-shadow: 0px 10px 20px #0000000F;
