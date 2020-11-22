@@ -3,24 +3,24 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title></title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
-  <div class="top-black">
-    <div class="top-black-bar">
-      <i class="fa fa-close" style="font-size:24px;color:white"></i>
-      <p>Customer Profile/Amit Lulla</p>
-    </div>
+<section class="top-black-bar-section">
+  <div class="top-black-bar">
+    <i class="fa fa-close" style="font-size:24px;color:white"></i>
+    <p>Customer Profile/Amit Lulla</p>
   </div>
-    <div class="">
+</section>
+<section class="second-row-section">
   <div class="second-row">
-    <div class="qq">
-      <div class="profile-column">
+    <div class="qq row">
+      <div class="profile-column col-lg-4">
         <div class="AJ-profile">
           AJ
         </div>
@@ -29,9 +29,9 @@
         <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg5" class="btn btn-danger profile-update-button">Update</button>
         <img src="img/Group 23.png" alt="" class="powered">
       </div>
-      <div class="contact-column">
-        <div class="rr">
-          <div class="contact-details">
+      <div class="contact-column col-lg-8">
+        <div class="rr row">
+          <div class="contact-details col-lg-5">
             <p class="contact-heading">Contact Details</p>
             <p class="contact-phn"><img src="img/Icon awesome-phone-alt.svg" alt="">9052346000</p>
             <p class="contact-mail"><img src="img/Icon feather-mail.svg" alt="">amith@optculture.com</p>
@@ -40,18 +40,20 @@
             <p class="contact-anniversary-date"><img src="img/anniversary.svg" alt="">May 10, 2006</p>
             <p class="contact-more" data-toggle="modal" data-target=".bd-example-modal-lg">More Information <img src="img/Icon ionic-ios-arrow-round-forward.svg" alt=""></p>
           </div>
-          <div class="contact-teir-div">
+          <div class="contact-teir-div col-lg-6">
             <img src="img/Group 5.svg" alt="" class="contact-tier">
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
+<section class="third-section">
   <div class="third-row">
-    <div class="tt">
-      <div class=" down-first">
-        <div class="yy">
-          <div class=" green-border">
+    <div class="tt row">
+      <div class=" down-first col-lg-6">
+        <div class="yy row">
+          <div class=" green-border col-lg-6">
             <p class="money-green">$24.10</p>
             <p class="money-point"> <span style="padding-right:5px">90Points</span> <span style="padding-left:5px">30Stars</span> </p>
             <div class="money-current">
@@ -59,7 +61,7 @@
             </div>
 
           </div>
-          <div class=" red-border">
+          <div class=" red-border col-lg-6">
             <p class="money-red">$4.10</p>
             <p class="money-point"> <span style="padding-right:5px">9Points</span> <span style="padding-left:5px">3Stars</span> </p>
             <div class="money-current">
@@ -104,346 +106,364 @@
               <button type="button" class="btn btn-danger">Manage</button>
             </div>
       </div>
-      <div class=" vouchers">
+      <div class=" vouchers col">
         <div class="discounts">
           <p>AVAILABLE DISCOUNTS</p>
         </div>
         <div class="voucher-img-margin">
         <div class="vouchers-img">
           <p class="vouchers-img-heading">HOODIE</p>
+          <div class="white-circle">
+
+          </div>
+          <div class="white-circle1">
+
+          </div>
           <p class="vouchers-img-content">Discount on woo-hoodie up to 300 item(s) 15% against 60 Reward type : <strong>Smiles</strong> . Add Item to Avail Discount.</p>
+
         </div>
         <div class="vouchers-img">
           <p class="vouchers-img-heading">Receipt-Reward</p>
+          <div class="white-circle">
+
+          </div>
+          <div class="white-circle1">
+
+          </div>
           <p class="vouchers-img-content">Discount on receipt : 10% against 2 Reward type :<strong> Diamond</strong>. Buy More to Get Discount.</p>
         </div>
           <div class="vouchers-img">
             <p class="vouchers-img-heading">MultipleItem</p>
+
+            <div class="white-circle">
+
+            </div>
+            <div class="white-circle1">
+
+            </div>
             <p class="vouchers-img-content">Discount on Polo, T-Shirt, Sunglasses items; 5% against 3 Reward type :<strong> Smiles</strong> . Add Item to Avail Discount.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <p class="more-information">More Information :</p>
+        <table class="modal-table">
+          <tr>
+            <td class="modal-body-bold">ADDRESS</td>
+            <td class="aa">:</td>
+            <td>Address1 Address2 City State County Postalcode/Zip</td>
+          </tr>
+          <tr>
+            <td class="modal-body-bold">MEMBER SINCE</td>
+            <td class="aa">:</td>
+            <td>July 12, 2017</td>
+          </tr>
+          <tr>
+            <td class="modal-body-bold">FIRST CHILD'S NAME</td>
+            <td class="aa">:</td>
+            <td>Value</td>
+          </tr>
+          <tr>
+            <td class="modal-body-bold">FIRST CHILD'S BIRTHDAY</td>
+            <td class="aa">:</td>
+            <td>Value</td>
+          </tr>
+          <tr>
+            <td class="modal-body-bold">SECOND CHILD'S NAME</td>
+            <td class="aa">:</td>
+            <td>Value/Zip</td>
+          </tr>
+          <tr>
+            <td class="modal-body-bold">ANY UDF NAME</td>
+            <td class="aa">:</td>
+            <td>Value</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered bonus-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body  bonus-modal">
+        <p class="bonuses-available-red">Bonuses Available</p>
+        <table class="bonus-table">
+          <tr>
+            <td style="text-align:center;font-weight:bold;font-size:25px;">Reasons</td>
+            <td style="text-align:center;font-weight:bold;font-size:25px;">Bonus</td>
+          </tr>
+          <tr>
+            <td class="">On reaching leve of <strong>$1000.00 </strong> of Lifetime purchase value</td>
+            <td class="bonus-center-table">$10.00</td>
+          </tr>
+          <tr>
+            <td class="">On reaching leve of <strong>$5000.00 </strong> of Lifetime purchase value</td>
+            <td class="bonus-center-table">$50.00</td>
+          </tr>
+          <tr>
+            <td class="">On reaching leve of <strong>$100.00 </strong> of Lifetime purchase value</td>
+            <td class="bonus-center-table">$5.00</td>
+          </tr>
+          <tr>
+            <td class="">On Enrollment</td>
+            <td class="bonus-center-table">$5.00</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
 </div>
 
 
 
-  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered transaction-dialog">
+    <div class="modal-content">
 
-        <div class="modal-body">
-          <p class="more-information">More Information :</p>
-          <table class="modal-table">
+      <div class="modal-body  transaction-modal">
+        <p class="transaction-history-red">Transaction History</p>
+        <table class="transaction-table">
+          <tr class="transaction-table-black-background">
+            <td>Date</td>
+            <td>Transaction</td>
+            <td> Loyalty Earned</td>
+            <td>Receipt No.</td>
+            <td></td>
+          </tr>
+          <tbody class="transaction-body">
             <tr>
-              <td class="modal-body-bold">ADDRESS</td>
-              <td class="aa">:</td>
-              <td>Address1 Address2 City State County Postalcode/Zip</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
             <tr>
-              <td class="modal-body-bold">MEMBER SINCE</td>
-              <td class="aa">:</td>
-              <td>July 12, 2017</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
             <tr>
-              <td class="modal-body-bold">FIRST CHILD'S NAME</td>
-              <td class="aa">:</td>
-              <td>Value</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
             <tr>
-              <td class="modal-body-bold">FIRST CHILD'S BIRTHDAY</td>
-              <td class="aa">:</td>
-              <td>Value</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
             <tr>
-              <td class="modal-body-bold">SECOND CHILD'S NAME</td>
-              <td class="aa">:</td>
-              <td>Value/Zip</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
             <tr>
-              <td class="modal-body-bold">ANY UDF NAME</td>
-              <td class="aa">:</td>
-              <td>Value</td>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
             </tr>
-          </table>
+            <tr>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">16 Oct 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="transaction-button-modal">
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg3">Next Page</button>
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Previous Page</button>
+
         </div>
 
       </div>
+
     </div>
   </div>
+</div>
 
 
-  <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog  modal-dialog-centered bonus-dialog">
-      <div class="modal-content">
 
-        <div class="modal-body  bonus-modal">
-          <p class="bonuses-available-red">Bonuses Available</p>
-          <table class="bonus-table">
+<div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered teir-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body  teir-modal">
+        <table class="teir-table">
+          <tr class="teir-table-black-background">
+            <td>Privilege Teir</td>
+            <td>Privilege Name</td>
+            <td> Earn Rule</td>
+            <td>Redeem Rule</td>
+            <td>Teir Upgrade Rule</td>
+          </tr>
+          <tbody class="teir-body">
             <tr>
-              <td style="text-align:center;font-weight:bold;font-size:25px;">Reasons</td>
-              <td style="text-align:center;font-weight:bold;font-size:25px;">Bonus</td>
+              <td class="teir-date">Teir 1</td>
+              <td class="teir-amount">Silver</td>
+              <td class="teir-point">1 Point for <strong> $1.00</strong></td>
+              <td class="teir-no"> <strong>$10.00</strong>  for <strong> 100 </strong>points</td>
+              <td class="teir-receipt">Cross-over at <strong>$10000.00</strong> </td>
             </tr>
             <tr>
-              <td class="">On reaching leve of <strong>$1000.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$10.00</td>
+              <td class="teir-date">Teir 2</td>
+              <td class="teir-amount">Gold</td>
+              <td class="teir-point">1 Point for <strong> $1.00</strong></td>
+              <td class="teir-no"> <strong>$10.00</strong>  for <strong> 200 </strong>points</td>
+              <td class="teir-receipt">Cross-over at <strong>$20000.00</strong> </td>
             </tr>
             <tr>
-              <td class="">On reaching leve of <strong>$5000.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$50.00</td>
+              <td class="teir-date">Teir 3</td>
+              <td class="teir-amount">Platinum</td>
+              <td class="teir-point">1 Point for <strong> $1.00</strong></td>
+              <td class="teir-no"> <strong>$10.00</strong>  for <strong> 300 </strong>points</td>
+              <td class="teir-receipt"></td>
             </tr>
-            <tr>
-              <td class="">On reaching leve of <strong>$100.00 </strong> of Lifetime purchase value</td>
-              <td class="bonus-center-table">$5.00</td>
-            </tr>
-            <tr>
-              <td class="">On Enrollment</td>
-              <td class="bonus-center-table">$5.00</td>
-            </tr>
-          </table>
-        </div>
+
+          </tbody>
+        </table>
 
       </div>
+
     </div>
   </div>
+</div>
 
 
 
-  <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog  modal-dialog-centered transaction-dialog">
-      <div class="modal-content">
 
-        <div class="modal-body  transaction-modal">
-          <p class="transaction-history-red">Transaction History</p>
-          <table class="transaction-table">
-            <tr class="transaction-table-black-background">
-              <td>Date</td>
-              <td>Transaction</td>
-              <td> Loyalty Earned</td>
-              <td>Receipt No.</td>
-              <td></td>
-            </tr>
-            <tbody class="transaction-body">
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-              <tr>
-                <td class="transaction-date">16 Oct 2020</td>
-                <td class="transaction-amount">$952.4</td>
-                <td class="transaction-point">202 Points 73.1 Currency</td>
-                <td class="transaction-no">110</td>
-                <td class="transaction-receipt">View Receipt</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="transaction-button-modal">
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg3">Next Page</button>
-            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Previous Page</button>
+<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered form-dialog">
+    <div class="modal-content">
 
+      <div class="modal-body  form-modal">
+
+        <form>
+          <div class="AJ-profile">
+            AJ
           </div>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog  modal-dialog-centered teir-dialog">
-      <div class="modal-content">
-
-        <div class="modal-body  teir-modal">
-          <table class="teir-table">
-            <tr class="teir-table-black-background">
-              <td>Privilege Teir</td>
-              <td>Privilege Name</td>
-              <td> Earn Rule</td>
-              <td>Redeem Rule</td>
-              <td>Teir Upgrade Rule</td>
-            </tr>
-            <tbody class="teir-body">
-              <tr>
-                <td class="teir-date">Teir 1</td>
-                <td class="teir-amount">Silver</td>
-                <td class="teir-point">1 Point for <strong> $1.00</strong></td>
-                <td class="teir-no"> <strong>$10.00</strong>  for <strong> 100 </strong>points</td>
-                <td class="teir-receipt">Cross-over at <strong>$10000.00</strong> </td>
-              </tr>
-              <tr>
-                <td class="teir-date">Teir 2</td>
-                <td class="teir-amount">Gold</td>
-                <td class="teir-point">1 Point for <strong> $1.00</strong></td>
-                <td class="teir-no"> <strong>$10.00</strong>  for <strong> 200 </strong>points</td>
-                <td class="teir-receipt">Cross-over at <strong>$20000.00</strong> </td>
-              </tr>
-              <tr>
-                <td class="teir-date">Teir 3</td>
-                <td class="teir-amount">Platinum</td>
-                <td class="teir-point">1 Point for <strong> $1.00</strong></td>
-                <td class="teir-no"> <strong>$10.00</strong>  for <strong> 300 </strong>points</td>
-                <td class="teir-receipt"></td>
-              </tr>
-
-            </tbody>
-          </table>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog  modal-dialog-centered form-dialog">
-      <div class="modal-content">
-
-        <div class="modal-body  form-modal">
-
-          <form>
-            <div class="AJ-profile">
-              AJ
-            </div>
-    <div class="form-row form-group form-modal-total-div">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name">
-      </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name">
-      </div>
-    </div>
-    <div class="form-group">
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Mobile Number">
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address">
-  </div>
-  <div class="form-row">
+  <div class="form-row form-group form-modal-total-div">
     <div class="col">
-      <input type="text" class="form-control" placeholder="DOB">
+      <input type="text" class="form-control" placeholder="First name">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Anniverary Date">
+      <input type="text" class="form-control" placeholder="Last name">
     </div>
   </div>
-  <p class="additional-information">Additional Information :</p>
   <div class="form-group">
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Address Line 1">
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Mobile Number">
 </div>
 <div class="form-group">
-  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address Line 1">
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address">
+</div>
+<div class="form-row">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="DOB">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Anniverary Date">
+  </div>
+</div>
+<p class="additional-information">Additional Information :</p>
+<div class="form-group">
+<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Address Line 1">
+</div>
+<div class="form-group">
+<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Address Line 1">
 </div>
 <div class="form-row form-group">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="City">
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="State">
-  </div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="City">
+</div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="State">
+</div>
 </div>
 <div class="form-row form-group">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Country">
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Postal Code/ZIP">
-  </div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="Country">
+</div>
+<div class="col">
+  <input type="text" class="form-control" placeholder="Postal Code/ZIP">
+</div>
 </div>
 <p class="additional-information">More Information :</p>
 <div class="form-row form-group">
 <div class="col">
-  <input type="text" class="form-control" placeholder="First Child's Name">
+<input type="text" class="form-control" placeholder="First Child's Name">
 </div>
 <div class="col">
-  <input type="text" class="form-control" placeholder="First Child's Birthday">
+<input type="text" class="form-control" placeholder="First Child's Birthday">
 </div>
 </div>
 <div class="form-row form-group">
 <div class="col">
-  <input type="text" class="form-control" placeholder="Second Child's Name">
+<input type="text" class="form-control" placeholder="Second Child's Name">
 </div>
 <div class="col">
-  <input type="text" class="form-control" placeholder="Any UDF Name">
+<input type="text" class="form-control" placeholder="Any UDF Name">
 </div>
 </div>
 <p class="modal-form-bottom-p">Member Since :Jule 12,2017</p>
 <div class="modal-form-button">
-  <button type="button" class="btn btn-outline-primary">Cancel</button>
-  <button type="button" class="btn btn-danger">Save</button>
+<button type="button" class="btn btn-outline-primary">Cancel</button>
+<button type="button" class="btn btn-danger">Save</button>
 
 </div>
-  </form>
+</form>
 
-        </div>
       </div>
     </div>
   </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
