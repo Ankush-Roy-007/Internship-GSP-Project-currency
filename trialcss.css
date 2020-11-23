@@ -1,3 +1,6 @@
+body{
+  background-color: #f3f3fb;
+}
 @media (min-width:584px){
 
   body{
@@ -46,7 +49,7 @@
     padding-top: 10px;
   }
   .profile-no{
-    color: blue;
+    color: #1D77FF;
     text-align: center;
   }
   .powered{
@@ -134,7 +137,7 @@
     padding:0px 10px 0px 10px;
   }
   .contact-more{
-    color: blue;
+    color: #1D77FF;
     margin-top: 40px;
     text-decoration: underline;
     cursor: pointer;
@@ -142,9 +145,35 @@
   .contact-more img{
     width: 15px;
   }
-  .contact-tier{
-    width: 100%;
-    margin-top: 60px;
+  .contact-teir-div{
+    background-image: url('img/Group 31@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+    padding: 40px;
+  }
+  .contact-teir-div-content{
+    width: 50%;
+    float: right;
+  }
+  .aa{
+    line-height:0.8;
+  }
+  .ab{
+    font-size:18px;
+    font-weight:500;
+    color:#CFD6DE;
+  }
+  .ac{
+    font-size:50px;
+    font-weight:500;
+    color:white;
+  }
+  .ae{
+    font-size:18px;
+    font-weight:500;
+    color:white;
   }
   .third-section{
     width: 100%;
@@ -320,7 +349,6 @@
   }
   .vouchers-img-content{
     width: 75%;
-    height: 110px;
     margin: auto;
     padding-bottom: 30px;
   }
@@ -424,7 +452,7 @@
     font-weight: 500;
   }
   .transaction-receipt{
-    color: blue;
+    color: #1D77FF;
     cursor: pointer;
     text-decoration: underline;
     font-weight: 500;
@@ -587,7 +615,7 @@
       padding-top: 10px;
     }
     .profile-no{
-      color: blue;
+      color: #1D77FF;
       text-align: center;
     }
     .powered{
@@ -675,7 +703,7 @@
       padding:0px 10px 0px 10px;
     }
     .contact-more{
-      color: blue;
+      color: #1D77FF;
       margin-top: 40px;
       text-decoration: underline;
       cursor: pointer;
@@ -683,9 +711,46 @@
     .contact-more img{
       width: 15px;
     }
-    .contact-tier{
-      width: 100%;
-      margin-top: 60px;
+
+
+    .contact-teir-div{
+      background-image: url('img/Group 31@2x.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .contact-teir-div-content{
+      width: 50%;
+      float: right;
+    }
+    .aa{
+      line-height:0.8;
+      margin-top: 15px;
+    }
+    .ab{
+      font-size:15px;
+      font-weight:500;
+      color:#CFD6DE;
+    }
+    .ac{
+      font-size:25px;
+      font-weight:500;
+      color:white;
+    }
+    .ae{
+      font-size:15px;
+      font-weight:500;
+      color:white;
+    }
+    .bb{
+      margin-top:10px;
+    }
+    .bc{
+      padding-top:5px;
+    }
+    .bd{
+      margin-top:10px;
+      line-height:1;
     }
     .third-section{
       width: 100%;
@@ -826,7 +891,7 @@
       box-shadow: 0px 10px 20px #0000000F;
       background-color: white;
       margin-top: 20px;
-      margin-left: 10px;
+      margin-left: 0px;
       padding-bottom: 50px;
     }
     .discounts{
@@ -963,7 +1028,7 @@
         font-weight: 500;
       }
       .transaction-receipt{
-        color: blue;
+        color: #1D77FF;
         cursor: pointer;
         text-decoration: underline;
         font-weight: 500;

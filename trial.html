@@ -32,7 +32,7 @@
       </div>
       <div class="contact-column col-lg-8">
         <div class="rr row">
-          <div class="contact-details col-lg-5">
+          <div class="contact-details col-lg-4">
             <p class="contact-heading">Contact Details</p>
             <p class="contact-phn"><img src="img/Icon awesome-phone-alt.svg" alt="">9052346000</p>
             <p class="contact-mail"><img src="img/Icon feather-mail.svg" alt="">amith@optculture.com</p>
@@ -41,8 +41,23 @@
             <p class="contact-anniversary-date"><img src="img/anniversary.svg" alt="">May 10, 2006</p>
             <p class="contact-more" data-toggle="modal" data-target=".bd-example-modal-lg">More Information <img src="img/Icon ionic-ios-arrow-round-forward.svg" alt=""></p>
           </div>
-          <div class="contact-teir-div col-lg-6">
-            <img src="img/Group 5.svg" alt="" class="contact-tier">
+          <div class="contact-teir-div col">
+            <div class="contact-teir-div-content">
+              <div class="aa" style="">
+                <p class="ab" style="">TIER LEVEL</p>
+                <p class="ac" style="">SILVER</p>
+              </div>
+              <div class="bb" style="">
+                <span class="ab"  style="">STATUS </span><span class="ab"> &nbsp &nbsp EXPIRY</span>
+              </div>
+              <div class="bc" style="">
+                <span class="ae" style="">ACTIVE </span><span class="ae"> &nbsp &nbsp UNDEFINED</span>
+              </div>
+              <div class="bd" style="">
+                <p class="ab">LIFETIME PURCHASE VALUE</p>
+                <p class="ae">$4,500</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -56,7 +71,7 @@
         <div class="yy row">
           <div class=" green-border col-lg-6">
             <p class="money-green">$24.10</p>
-            <p class="money-point"> <span style="padding-right:5px">90Points</span> <span style="padding-left:5px">30Stars</span> </p>
+            <p class="money-point"> <span style="padding-right:5px">90 Points</span> <span style="padding-left:5px">30 Stars</span> </p>
             <div class="money-current">
               <p>CURRENT BALANCE</p>
             </div>
@@ -64,7 +79,7 @@
           </div>
           <div class=" red-border col-lg-6">
             <p class="money-red">$4.10</p>
-            <p class="money-point"> <span style="padding-right:5px">9Points</span> <span style="padding-left:5px">3Stars</span> </p>
+            <p class="money-point"> <span style="padding-right:5px">9 Points</span> <span style="padding-left:5px">3 Stars</span> </p>
             <div class="money-current">
               <p>EXPIRING THIS MONTH</p>
             </div>
@@ -143,6 +158,7 @@
 
             </div>
             <p class="vouchers-img-content">Discount on Polo, T-Shirt, Sunglasses items; 5% against 3 Reward type :<strong> Smiles</strong> . Add Item to Avail Discount.</p>
+
           </div>
         </div>
       </div>
@@ -156,6 +172,7 @@
     <div class="modal-content">
 
       <div class="modal-body">
+        <p style="text-align:right;cursor:pointer" onclick="closeq()"><i class="fa fa-times fa-2x"></i></p>
         <p class="more-information">More Information :</p>
         <table class="modal-table">
           <tr>
@@ -196,11 +213,12 @@
 </div>
 
 
-<div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg1 " id="closea" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog  modal-dialog-centered bonus-dialog">
     <div class="modal-content">
 
       <div class="modal-body  bonus-modal">
+      <p style="text-align:right;cursor:pointer" onclick="closeq()"><i class="fa fa-times fa-2x"></i></p>
         <p class="bonuses-available-red">Bonuses Available</p>
         <table class="bonus-table">
           <tr>
@@ -237,6 +255,7 @@
     <div class="modal-content">
 
       <div class="modal-body  transaction-modal">
+        <p style="text-align:right;cursor:pointer" onclick="closeq()"><i class="fa fa-times fa-2x"></i></p>
         <p class="transaction-history-red">Transaction History</p>
         <table class="transaction-table">
           <tr class="transaction-table-black-background">
@@ -336,6 +355,7 @@
     <div class="modal-content">
 
       <div class="modal-body  transaction-modal">
+        <p style="text-align:right;cursor:pointer" onclick="closeq()"><i class="fa fa-times fa-2x"></i></p>
         <p class="transaction-history-red">Transaction History</p>
         <table class="transaction-table">
           <tr class="transaction-table-black-background">
@@ -435,6 +455,7 @@
     <div class="modal-content">
 
       <div class="modal-body  teir-modal">
+        <p style="text-align:right;cursor:pointer" onclick="closeq()"><i class="fa fa-times fa-2x"></i></p>
         <table class="teir-table">
           <tr class="teir-table-black-background">
             <td>Privilege Teir</td>
@@ -478,7 +499,7 @@
 
 
 
-<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg5" id="update-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog  modal-dialog-centered form-dialog">
     <div class="modal-content">
 
@@ -552,7 +573,7 @@
 </div>
 <p class="modal-form-bottom-p">Member Since :Jule 12,2017</p>
 <div class="modal-form-button">
-<button type="button" class="btn btn-outline-primary">Cancel</button>
+<button type="button" class="btn btn-outline-primary" onclick="cancel()">Cancel</button>
 <button type="button" class="btn btn-danger">Save</button>
 
 </div>
@@ -573,6 +594,13 @@
       document.getElementById("transactiontotalmodalsec").classList.remove("show");
       $('.modal-backdrop').remove();
       $("#transactiontotalmodal").addClass("show");
+    }
+    function cancel(){
+      document.getElementById("update-modal").classList.remove("show");
+      $('.modal-backdrop').remove();
+    }
+    function closeq(){
+      $('.modal').modal('hide');
     }
   </script>
 
