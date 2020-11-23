@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
@@ -231,7 +232,7 @@
 
 
 
-<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg2" id="transactiontotalmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog  modal-dialog-centered transaction-dialog">
     <div class="modal-content">
 
@@ -319,8 +320,8 @@
           </tbody>
         </table>
         <div class="transaction-button-modal">
-          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg3">Next Page</button>
-          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg3">Previous Page</button>
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg3" onclick="transactionremove()">Next Page</button>
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg3" onclick="transactionremove()">Previous Page</button>
 
         </div>
 
@@ -330,7 +331,104 @@
   </div>
 </div>
 
+<div class="modal fade bd-example-modal-lg3" id="transactiontotalmodalsec" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered transaction-dialog">
+    <div class="modal-content">
 
+      <div class="modal-body  transaction-modal">
+        <p class="transaction-history-red">Transaction History</p>
+        <table class="transaction-table">
+          <tr class="transaction-table-black-background">
+            <td>Date</td>
+            <td>Transaction</td>
+            <td> Loyalty Earned</td>
+            <td>Receipt No.</td>
+            <td></td>
+          </tr>
+          <tbody class="transaction-body">
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+            <tr>
+              <td class="transaction-date">18 Nov 2020</td>
+              <td class="transaction-amount">$952.4</td>
+              <td class="transaction-point">202 Points 73.1 Currency</td>
+              <td class="transaction-no">110</td>
+              <td class="transaction-receipt">View Receipt</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="transaction-button-modal">
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg2" onclick="transactionremovepre()">Next Page</button>
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-lg2" onclick="transactionremovepre()">Previous Page</button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog  modal-dialog-centered teir-dialog">
@@ -464,9 +562,25 @@
     </div>
   </div>
 </div>
+
+  <script type="text/javascript">
+    function transactionremove(){
+      document.getElementById("transactiontotalmodal").classList.remove("show");
+      $('.modal-backdrop').remove();
+      $("#transactiontotalmodalsec").addClass("show");
+    }
+    function transactionremovepre(){
+      document.getElementById("transactiontotalmodalsec").classList.remove("show");
+      $('.modal-backdrop').remove();
+      $("#transactiontotalmodal").addClass("show");
+    }
+  </script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
